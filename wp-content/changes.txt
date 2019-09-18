@@ -1,0 +1,1 @@
+1. #primary in style in theme deleted float left and width 70%

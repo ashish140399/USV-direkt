@@ -16,6 +16,9 @@ get_header();
 	if( empty( $layout ) || is_archive() || is_search() || is_home() ) {
 		$layout = 'default';
 	} ?>
+<script>
+	$("wcmenucart-contents").html("dsfdsgsdg");
+</script>
 <div class="wrap">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">

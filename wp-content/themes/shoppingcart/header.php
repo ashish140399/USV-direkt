@@ -98,7 +98,7 @@ wp_head(); ?>
 						$search_form = $shoppingcart_settings['shoppingcart_search_custom_header'];
 						if (1 != $search_form) { ?>
 
-							<div id="search-box" class="clearfix">
+							<div id="search-box" style="height: 30px;">
 								<?php 
 									if (! class_exists('woocommerce')) {
 
@@ -111,6 +111,14 @@ wp_head(); ?>
 									}
 								?>
 							</div>  <!-- end #search-box -->
+							<div style="display: inline-block;">
+								<img src="http://localhost/direkt/wp-content/uploads/2019/09/smartphone-icon.png" style="width: 2em;">
+								<div style="display: inline-block;"><div style="font-size:12px;color:#16A4FA">Customer Service</div>
+								<div style="position: absolute;">+49 02433</div>
+								</div>								
+							</div>
+							
+							
 						<?php } 
 
 						do_action ('shoppingcart_cart_wishlist_icon_display'); ?>
